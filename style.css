@@ -156,3 +156,40 @@ body {
         font-size: 16px;
     }
 }
+
+#api-input-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.api-input {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.api-input:focus {
+    border-color: var(--active-item-bg);
+}
+
+.api-submit-btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: var(--active-item-bg);
+    color: var(--header-color);
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.api-submit-btn:hover {
+    background-color: #1a5fb4;
+}
