@@ -1,0 +1,12 @@
+{
+  "name": "all_api_web",
+  "version": "1.0.0",
+  "description": "A web interface to test 60s APIs with a local proxy.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
+}

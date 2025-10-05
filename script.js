@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const apiTitle = document.getElementById('api-title');
     const apiDescription = document.getElementById('api-description');
     const apiInputContainer = document.getElementById('api-input-container');
-    const proxy = 'https://cors-anywhere.herokuapp.com/';
+    const proxy = 'http://localhost:8080/';
 
     const apis = {
         '60秒读懂世界': { url: 'https://60s.viki.moe/60s', requiresInput: false },
